@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="col-md-2 col-md-offset-5">
+        <h1>Registration <small>sign up now!</small></h1>
+        <form ng-submit="vm.register()">
+            <label>Username: </label>
+            <br><input ng-model="vm.user.username" type="text" placeholder="enter your username"/>
+            <br><label>Email: </label>
+            <br><input ng-model="vm.user.email" type="email" placeholder="enter your email">
+            <br><label>Password: </label>
+            <br><input ng-model="vm.user.password" type="password" placeholder="enter your password">
+            <br><label>Confirm Password: </label>
+            <br><input ng-model="vm.user.cpassword" type="password" placeholder="re-enter">
+            <br><button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
